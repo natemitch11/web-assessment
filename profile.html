@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+    <body class="home-background">
+        <nav class="nav-bar">
+            <ol>
+                <li class="crumb"><a href="./home.html">Home</a></li>
+                <li class="crumb"><a href="./profile.html">Profile</a></li>
+                <li class="crumb"><a href="./about.html">About</a></li>
+                <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+            </ol>
+        </nav>    
+
+        <content class="home-text">
+           <h1 id="profile-title">Crew Profiles</h1>
+           <h2 id="profile-name">Nate 'Straw Hat' Mitchell</h2>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2IUKHYXCazYSPiMXd8rKA2cj62_ENGsG-hw&usqp=CAU" id="profile-pic">
+           <div id="profile-bio">
+               <p>Nate 'Straw Hat' Mitchell is a lovable member of the crew. For some reason he thinks he is the captain and that he is going to become the pirate king one day after he obtains this one piece of something or other. He enjoys long walks on the beach, and eating fruits. Unfortunately he cannot swim, which is ironic for a pirate. Some of his goals include:</p>
+               <ul>
+                   <li>Find adventure out there on the high seas with his friends</li>
+                   <li>Spend time with those people he loves</li>
+                   <li>Protect his daughters from scallywags and buffoons</li>
+                   <li>Find out how crumbl makes their caramel pumpkin spice cookies</li>
+               </ul>
+               <p>While he may not look like a fearsome pirate, if you end up on his bad side you may regret it. Lucky for you though he is pretty easy to get along with and he's fiercly loyal to his crew!</p>
+           </div>
+           <form id="profile-buttons">
+               Is Nate really the captain??:
+               <div class="captain-poll">
+				    <input type="radio" value="yes" name="captain-poll" id="yes" checked>
+				    <label for="yes">Yes, of course!</label>
+			    </div>
+                <div class="captain-poll">
+				    <input type="radio" value="no" name="captain-poll" id="no">
+				    <label for="no">No! I'm loyal to the true captain savvy!</label>
+			    </div>
+                <div>
+                    <button class="Banana" id="color">My Favorite Color</button>
+                    <button class="Banana" id="place">My Favorite Place</button>
+                    <button class="Banana" id="ritual">My Favorite Ritual</button>  
+                </div>
+           </form>
+
+        </content>
+        <script src="profile.js"></script>
+    </body>
+</html>
